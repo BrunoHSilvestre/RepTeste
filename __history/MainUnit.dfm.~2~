@@ -1,0 +1,36 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 201
+  ClientWidth = 445
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object ListView1: TListView
+    Left = 40
+    Top = 8
+    Width = 250
+    Height = 150
+    Columns = <
+      item
+        Caption = 'CTeste'
+      end
+      item
+        Caption = 'TesteC'
+      end>
+    Items.ItemData = {
+      058A0000000400000000000000FFFFFFFFFFFFFFFF00000000FFFFFFFF000000
+      00055400650073007400650000000000FFFFFFFFFFFFFFFF00000000FFFFFFFF
+      000000000654006500730074006500320000000000FFFFFFFFFFFFFFFF000000
+      00FFFFFFFF000000000654006500730074006500330000000000FFFFFFFFFFFF
+      FFFF00000000FFFFFFFF0000000000}
+    TabOrder = 0
+  end
+end
